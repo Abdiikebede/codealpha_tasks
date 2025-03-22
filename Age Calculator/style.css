@@ -1,0 +1,78 @@
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card styling */
+.container {
+  background: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background: linear-gradient(to right, #e2e2e2);
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="date"] {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: red;
+}
+
+#currentAge {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#birthMessage {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#currentAge {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
